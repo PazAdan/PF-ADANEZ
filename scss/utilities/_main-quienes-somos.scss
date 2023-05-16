@@ -4,21 +4,23 @@
     min-height: 70vh;
     font-family: "Courier New", Courier, monospace;
     color: black;
-    
+    background-color: rgb(236, 230, 223);
     margin: 10px;
     padding: 10px;
     /*AGREGADO*/
     width: 100%;
-    
+    justify-content: space-between;
     justify-items: center;
     align-items: center;
     align-content: center;
   }
   
   .quienes-somos-texto{
-
+    width: 50%;
+    padding: 0 0 0 40px;
   }
 
   .quienes-somos-imagen{
-max-height: 50%;
+    width: 45%;
+    padding: 0 40px 0 0;
   }
