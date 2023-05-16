@@ -21,24 +21,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center; }
-
-.header
-.header a img
-.header
-.header .nav {
-  display: flex;
-  flex-wrap: wrap; }
-
-.header .nav ul {
-  display: flex;
-  list-style: none;
-  width: 800px;
-  gap: 60px; }
-
-.header .nav ul a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold; }
+  .header .nav {
+    display: flex;
+    flex-wrap: wrap; }
+    .header .nav ul {
+      display: flex;
+      list-style: none;
+      width: 800px;
+      gap: 60px; }
+      .header .nav ul a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold; }
 
 .footer {
   display: flex;
@@ -48,17 +42,19 @@
   min-height: 10vh;
   justify-content: space-between;
   margin-top: 15px; }
+  .footer ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly; }
+    .footer ul img {
+      max-height: 30px;
+      max-width: 30px;
+      margin: 10px; }
 
-.footer ul {
-  display: flex;
-  list-style: none;
-  width: 100%;
-  justify-content: space-evenly; }
-
-.footer ul img {
+.imgfooter {
   max-height: 30px;
-  max-width: 30px;
-  margin: 10px; }
+  max-width: 30px; }
 
 .imgfooter1 {
   max-height: 30px;
@@ -108,37 +104,55 @@
   display: flex;
   flex-direction: column;
   padding: 5px; }
-
-.producto-1:hover {
-  transform: scale(1.1);
-  transition: 0.5s; }
+  .producto-1:hover {
+    transform: scale(1.1);
+    transition: 0.5s; }
 
 .producto-2 {
   display: flex;
   flex-direction: column;
   padding: 5px; }
-
-.producto-2:hover {
-  transform: scale(1.1);
-  transition: 0.5s; }
+  .producto-2:hover {
+    transform: scale(1.1);
+    transition: 0.5s; }
 
 .producto-3 {
   display: flex;
   flex-direction: column;
   padding: 5px; }
-
-.producto-3:hover {
-  transform: scale(1.1);
-  transition: 0.5s; }
+  .producto-3:hover {
+    transform: scale(1.1);
+    transition: 0.5s; }
 
 .button {
   background-color: #e1dbcb;
   font-weight: bold;
   color: black;
   border: 2px black solid; }
+  .button:hover {
+    transform: scale(1.1); }
 
-.button .button:hover {
-  transform: scale(1.1); }
+.flex-container-productos {
+  display: flex;
+  justify-content: space-evenly; }
+
+.carousel-inner {
+  display: flex;
+  margin: 50px;
+  padding: 10px;
+  justify-content: space-between; }
+
+.carousel-inner img {
+  margin: 0 10px;
+  max-width: 150vh;
+  max-height: 150vh;
+  justify-content: center; }
+
+#carouselExampleIndicators {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px; }
 
 .grid-container {
   display: grid;
@@ -160,9 +174,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   transition: 0, 5s; }
-
-.imagen:hover {
-  transform: scale(1.1); }
+  .imagen:hover {
+    transform: scale(1.1); }
 
 .imagen1 {
   grid-area: imagen1;
@@ -200,42 +213,9 @@
   grid-area: imagen9;
   background-image: url("../recursos/imagen9.jpg"); }
 
-h2 {
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  background-color: #b3ae9e;
-  background-image: linear-gradient(to right, #b3ae9e, #e1dbcb);
-  color: black;
-  height: 10%;
-  justify-content: left;
-  align-items: center;
-  margin: 10px;
-  padding: 10px; }
-
-.flex-container-productos {
-  display: flex;
-  justify-content: space-evenly; }
-
-.carousel-inner {
-  display: flex;
-  margin: 50px;
-  padding: 10px;
-  justify-content: space-between; }
-
-.carousel-inner img {
-  margin: 0 10px;
-  max-width: 150vh;
-  max-height: 150vh;
-  justify-content: center; }
-
-#carouselExampleIndicators {
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-  margin: 10px; }
-
 .main-contactanos {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: flex-end;
   flex-direction: column;
@@ -243,9 +223,10 @@ h2 {
   background-image: url(../recursos/foto-contactanos.webp);
   background-position: center;
   min-height: 70vh;
-  min-width: 100vh;
+  width: 100%;
   padding: 50px;
-  margin: 50px; }
+  margin: 50px;
+  align-items: center; }
 
 .form {
   display: flex;
@@ -253,41 +234,37 @@ h2 {
   align-content: center;
   justify-content: space-evenly;
   min-height: 20vh;
-  width: 600px; }
-
-.form input:focus {
-  background-color: #cecdcd; }
-
-.form textarea:focus {
-  background-color: #cecdcd; }
-
-.form textarea:focus input {
-  border: 2px solid black;
-  border-radius: 30%; }
-
-.form textarea:focus textarea {
-  border: 2px solid black;
-  border-radius: 30%; }
+  width: 600px;
+  margin: 60px; }
+  .form input:focus {
+    background-color: #cecdcd; }
+  .form textarea:focus {
+    background-color: #cecdcd; }
+    .form textarea:focus input {
+      border: 2px solid black;
+      border-radius: 30%; }
+    .form textarea:focus textarea {
+      border: 2px solid black;
+      border-radius: 30%; }
 
 .submit:hover {
   transform: scale(1.1); }
 
 .main-quienes-somos {
-  background-image: url(../recursos/foto-quienes-somos.webp);
+  display: flex;
   min-height: 70vh;
   font-family: "Courier New", Courier, monospace;
   color: black;
-  display: grid;
-  grid-template-columns: 1, 1fr;
-  grid-template-rows: repeat(4, 1fr);
   margin: 10px;
   padding: 10px;
   /*AGREGADO*/
-  max-width: 2000px;
-  margin: 0 0 0 350px;
+  width: 100%;
   justify-items: center;
   align-items: center;
   align-content: center; }
+
+.quienes-somos-imagen {
+  max-height: 50%; }
 
 @media (max-width: 619px) {
   .header {
@@ -307,16 +284,24 @@ h2 {
     width: 300px;
     grid-template-areas: "imagen1 imagen2" "imagen3 imagen4" "imagen5 imagen6" "imagen7 imagen8" "imagen9 imagen9"; } }
 
+h2 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #b3ae9e;
+  background-image: linear-gradient(to right, #b3ae9e, #e1dbcb);
+  color: black;
+  height: 10%;
+  justify-content: left;
+  align-items: center;
+  margin: 10px;
+  padding: 10px; }
+
 .main {
   min-height: 70vh;
   min-width: 100vh; }
 
 img {
   width: 100%; }
-
-.imgfooter {
-  max-height: 30px;
-  max-width: 30px; }
 
 p {
   font-size: xx-large; }
