@@ -1,0 +1,52 @@
+/* agregar VARIABLES*/
+
+$color-ppal: rgb(205, 230, 205);
+
+@import './utilities/reset';
+
+@import './utilities/header';
+
+@import'./utilities/footer';
+
+@import './utilities/main-index';
+
+@import './utilities/main-novedades';
+
+@import './utilities/main-productos';
+
+@import './utilities/main-contactanos';
+
+@import './utilities/main-quienes-somos';
+
+@import './utilities/mq';
+     
+  
+
+
+  h2 {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    background-color: rgb(179, 174, 158);
+    background-image: linear-gradient(to right, rgb(179, 174, 158), rgb(225, 219, 203));
+    color: black;
+    height: 10%;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+
+  .main {
+    min-height: 70vh;
+    min-width: 100vh;
+  }
+  
+  img {
+    width: 100%;
+  }
+    
+  p {
+    font-size: xx-large;
+  }/*# sourceMappingURL=main.css.map */
+ 

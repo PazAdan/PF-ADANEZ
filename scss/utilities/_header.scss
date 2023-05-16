@@ -1,0 +1,39 @@
+
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(191, 202, 191);
+    flex-wrap: wrap;
+    min-height: 20vh;
+    width: 100%;
+    a img {
+      width: 140px;
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+      }
+    }
+    h1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      ul {
+        display: flex;
+        list-style: none;
+        width: 800px;
+        gap: 60px;
+        a {
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+ 
