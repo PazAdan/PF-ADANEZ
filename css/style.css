@@ -176,39 +176,39 @@
 
 .imagen1 {
   grid-area: imagen1;
-  background-image: url("../recursos/imagen1.webp"); }
+  background-image: url("../img/imagen1.webp"); }
 
 .imagen2 {
   grid-area: imagen2;
-  background-image: url("../recursos/imagen2.jpg"); }
+  background-image: url("../img/imagen2.jpg"); }
 
 .imagen3 {
   grid-area: imagen3;
-  background-image: url("../recursos/imagen3.jpg"); }
+  background-image: url("../img/imagen3.jpg"); }
 
 .imagen4 {
   grid-area: imagen4;
-  background-image: url("../recursos/imagen4.jpg"); }
+  background-image: url("../img/imagen4.jpg"); }
 
 .imagen5 {
   grid-area: imagen5;
-  background-image: url("../recursos/imagen5.jpg"); }
+  background-image: url("../img/imagen5.jpg"); }
 
 .imagen6 {
   grid-area: imagen6;
-  background-image: url("../recursos/imagen6.jpg"); }
+  background-image: url("../img/imagen6.jpg"); }
 
 .imagen7 {
   grid-area: imagen7;
-  background-image: url("../recursos/imagen7.jpeg"); }
+  background-image: url("../img/imagen7.jpeg"); }
 
 .imagen8 {
   grid-area: imagen8;
-  background-image: url("../recursos/imagen8.jpeg"); }
+  background-image: url("../img/imagen8.jpeg"); }
 
 .imagen9 {
   grid-area: imagen9;
-  background-image: url("../recursos/imagen9.jpg"); }
+  background-image: url("../img/imagen9.jpg"); }
 
 .main-contactanos {
   display: flex;
