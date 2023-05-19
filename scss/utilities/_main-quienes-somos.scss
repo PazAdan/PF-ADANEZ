@@ -4,7 +4,7 @@
     min-height: 70vh;
     font-family: "Courier New", Courier, monospace;
     color: black;
-    background-color: rgb(236, 230, 223);
+    background-color: $color-fondo;
     margin: 10px;
     padding: 10px;
     /*AGREGADO*/
@@ -23,4 +23,5 @@
   .quienes-somos-imagen{
     width: 45%;
     padding: 0 40px 0 0;
+
   }

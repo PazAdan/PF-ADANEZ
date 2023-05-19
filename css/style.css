@@ -36,7 +36,7 @@
 
 .footer {
   display: flex;
-  background-color: #e1dbcb;
+  background-color: #b3ae9e;
   justify-content: center;
   align-items: center;
   min-height: 10vh;
@@ -46,31 +46,28 @@
     display: flex;
     list-style: none;
     width: 100%;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    align-items: center; }
     .footer ul img {
-      max-height: 30px;
       max-width: 30px;
+      max-height: 30px;
       margin: 10px; }
 
 .imgfooter {
-  max-height: 30px;
-  max-width: 30px; }
+  max-height: 30px; }
 
 .imgfooter1 {
   max-height: 30px;
-  max-width: 30px;
   padding: 15px;
   margin: 10px; }
 
 .imgfooter2 {
   max-height: 30px;
-  max-width: 30px;
   padding: 15px;
   margin: 10px; }
 
 .imgfooter3 {
   max-height: 30px;
-  max-width: 30px;
   padding: 15px;
   margin: 10px; }
 
@@ -125,7 +122,7 @@
     transition: 0.5s; }
 
 .button {
-  background-color: #e1dbcb;
+  background-color: #b3ae9e;
   font-weight: bold;
   color: black;
   border: 2px black solid; }
@@ -222,7 +219,9 @@
   background-position: center;
   min-height: 70vh;
   width: 100%;
-  align-items: center; }
+  align-items: center;
+  margin: 10px;
+  padding: 10px; }
 
 .form {
   display: flex;
@@ -233,9 +232,9 @@
   width: 600px;
   margin: 60px; }
   .form input:focus {
-    background-color: #cecdcd; }
+    background-color: #b3ae9e; }
   .form textarea:focus {
-    background-color: #cecdcd; }
+    background-color: #b3ae9e; }
     .form textarea:focus input {
       border: 2px solid black;
       border-radius: 30%; }
@@ -306,6 +305,7 @@ img {
   width: 100%; }
 
 p {
-  font-size: xx-large; }
+  font-size: xx-large;
+  padding: 0 20px 0 0; }
 
 /*# sourceMappingURL=main.css.map */

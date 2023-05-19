@@ -1,7 +1,9 @@
 /* agregar VARIABLES*/
 
 $color-ppal:rgb(191, 202, 191);
-$color-secundario:rgb(236, 230, 223);
+$color-secundario: rgb(179, 174, 158);
+$color-fondo:rgb(236, 230, 223);
+
 
 @import './utilities/reset';
 
@@ -48,5 +50,6 @@ $color-secundario:rgb(236, 230, 223);
     
   p {
     font-size: xx-large;
+    padding: 0 20px 0 0;
   }/*# sourceMappingURL=main.css.map */
  
